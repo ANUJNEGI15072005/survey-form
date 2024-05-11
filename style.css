@@ -19,7 +19,7 @@ header{
     display: inline-grid;
 }
 .main{
-    width: 30vw;
+    width: 40%;
     height: 175vh;
     background-color: lightblue;
     margin: 20px;
@@ -31,15 +31,16 @@ header{
     text-align: center;
     align-items: center;
     background-color: lightblue;
-    width: 24vw;
+    width: 70%;
     gap: 30px;
-    margin-left: 35px;
+    margin-left: 10%;
     margin-top: 25px;
 }
 .item{
     padding: 10px;
     border-radius: 10px;
     text-align: justify;
+    width: 100%;
 }
 .keyword{
     margin-bottom: 5px;
@@ -47,8 +48,8 @@ header{
 
 .sub{
     margin-top:10vh ;
-    margin-left: 20vw;
-    width: 8vw;
+    margin-left: 70%;
+    width: 27%;
     height: 8vh;
     border-radius: 6px;
     font-size: larger;
@@ -57,9 +58,9 @@ header{
 }
 .box{
     padding: 5px;
-    width: 265px;
+    width: 80%;
 }
-@media only screen and  (max-width : 2560px) {
+/* @media only screen and  (max-width : 2560px) {
     .box{
         width: 500px;
     }
@@ -80,65 +81,59 @@ header{
         margin-left: 18vw;
         width: 9vw;
     }
-} 
-@media only screen and  (max-width : 768px){
+}  */
+@media only screen and  (max-width : 855px){
     .box{
-        width: 210px;
+        width: 80%;
     }
     .grid{
-        margin-left: 22px;
+        margin-left: 10%;
     }
     .main{
-        width: 40vw;
+        width: 50%;
     }
-    .sub{
-        margin-left: 25vw;
-        width: 12vw;
-    }
+    /* .sub{
+        margin-left: 60%;
+        width: 30%;
+    } */
 } 
-@media only screen and  (max-width : 426px){
+@media only screen and  (max-width : 640px){
     .box{
-        width: 205px;
+        width: 90%;
     }
     header{
         font-size: xx-large;
     }
     .main{
-        width: 70vw;
-        height: 1100px;
-    }
-    .sub{
-        margin-left: 45vw;
-        width: 21vw;
+        width: 70%;
     }
 } 
-@media only screen and  (max-width : 376px){
+@media only screen and  (max-width : 414px){
+    header{
+        font-size: x-large;
+    }
+    .main{
+        width: 80%;
+    }
     .box{
-        width: 185px;
+        width: 90%;
+    }
+} 
+@media only screen and  (max-width : 369px){
+    .box{
+        width: 90%;
     }
     header{
         font-size: x-large;
     }
     .main{
-        width: 70vw;
+        width: 85%;
+    }
+    .item{
+        width: 110%;
     }
     .sub{
-        margin-left: 42vw;
-        width: 23vw;
-    }
-} 
-@media only screen and  (max-width : 321px){
-    .box{
-        width: 180px;
-    }
-    header{
-        font-size: x-large;
-    }
-    .main{
-        width: 84vw;
-    }
-    .sub{
-        margin-left: 54vw;
-        width: 26vw;
+        width: 30%;
+        margin-left: 65%;   
     }
 }   
