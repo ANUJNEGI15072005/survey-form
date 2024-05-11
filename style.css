@@ -24,6 +24,7 @@ header{
     background-color: lightblue;
     margin: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .grid{
     display: grid;
@@ -60,28 +61,6 @@ header{
     padding: 5px;
     width: 80%;
 }
-/* @media only screen and  (max-width : 2560px) {
-    .box{
-        width: 500px;
-    }
-} 
-@media only screen and  (max-width : 1440px){
-    .box{
-        width: 265px;
-    }
-} 
-@media only screen and  (max-width :1024px) {
-    .box{
-        width: 187px;
-    }
-    .grid{
-        margin-left: 25px;
-    }
-    .sub{
-        margin-left: 18vw;
-        width: 9vw;
-    }
-}  */
 @media only screen and  (max-width : 855px){
     .box{
         width: 80%;
@@ -92,10 +71,6 @@ header{
     .main{
         width: 50%;
     }
-    /* .sub{
-        margin-left: 60%;
-        width: 30%;
-    } */
 } 
 @media only screen and  (max-width : 640px){
     .box{
