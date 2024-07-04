@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,23 +11,23 @@
     <header>
         STUDENT SURVEY FORM
     </header>
-    <div class="main">
+    <form id="myForm" class="main" action="/submit" method="POST">
         <div class="grid">
             <div class="item">
                 <div class="keyword">NAME :</div>
-                <input class="box" type="text" placeholder="ENTER YOUR NAME">
+                <input id="name" name="name" class="box" type="text" placeholder="ENTER YOUR NAME">
             </div>
             <div class="item">
                 <div class="keyword">EMAIL-ID :</div>
-                <input class="box" type="text" placeholder="ENTER YOUR EMAIL-ID">
+                <input id="email" name="email" class="box" type="text" placeholder="ENTER YOUR EMAIL-ID">
             </div>
             <div class="item">
                 <div class="keyword">AGE :</div>
-                <input class="box" type="text" placeholder="ENTER YOUR AGE">
+                <input id="age" name="age" class="box" type="text" placeholder="ENTER YOUR AGE">
             </div>
             <div class="item">
                 <div class="keyword">CLASS :</div>
-                <input class="box" type="text" placeholder="ENTER YOUR CLASS">
+                <input id="standard" name="standard" class="box" type="text" placeholder="ENTER YOUR CLASS">
             </div>
             <div class="item">
                 <div class="keyword">School Type :</div>
@@ -40,35 +39,36 @@
             </div>
             <div class="item">
                 <div class="keyword">SCHOOL NAME :</div>
-                <input class="box" type="text" placeholder="ENTER YOUR SCHOOL NAME ">
+                <input id="school" name="school" class="box" type="text" placeholder="ENTER YOUR SCHOOL NAME ">
             </div>
             <div class="item">
                 <div class="keyword">SELECT COURSES :</div>
-                <input type="checkbox" name="btech" id="btech">
+                <input type="checkbox" name="course" id="btech">
                 <label for="btech">B.Tech</label>
                 <br>
-                <input type="checkbox" name="bca" id="bca">
+                <input type="checkbox" name="course" id="bca">
                 <label for="bca">BCA</label>
                 <br>
-                <input type="checkbox" name="bcom" id="bcom">
+                <input type="checkbox" name="course" id="bcom">
                 <label for="bcom">B.Com</label>
                 <br>
-                <input type="checkbox" name="bba" id="bba">
+                <input type="checkbox" name="course" id="bba">
                 <label for="bba">BBA</label>
                 <br>
-                <input type="checkbox" name="ba" id="ba">
+                <input type="checkbox" name="course" id="ba">
                 <label for="ba">BA</label>
                 <br>
-                <input type="checkbox" name="bsc" id="bsc">
+                <input type="checkbox" name="course" id="bsc">
                 <label for="bsc">B.Sc</label>
             </div>
             <div class="item">
                 <div class="keyword">Reason for the selected course :</div>
-                <input class="box" type="text">
+                <input id="reason" name="reason" class="box" type="text">
             </div>
         </div>
-        <button class="sub">SUBMIT</button>
-    </div>
+        <button type="button" class="sub" onclick="submitForm()">SUBMIT</button>
+    </form>
+    <script src="script.js"></script>
 
 </body>
 
