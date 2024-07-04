@@ -1,4 +1,4 @@
-####STUDENT SURVEY FORM
+#STUDENT SURVEY FORM
 
 This project implements a student survey form using HTML, CSS, and JavaScript. The form collects various details from students including their name, email, age, class, school type, selected courses, and reasons for choosing a course. It includes validation to ensure all required fields are filled out and correct formats for email, age, and class are used.
 
