@@ -1,4 +1,4 @@
-#**Student Survey Form**##
+#**Student Survey Form**
 This is a simple HTML and JavaScript-based student survey form. The form collects various information from students, including their name, email, age, class, school type, school name, selected courses, and the reason for selecting those courses. After the form is filled out and submitted, it displays a thank-you message.
 ##**Features:-**
 **Responsive Design:** The form is styled to be responsive and works well on various screen sizes.
