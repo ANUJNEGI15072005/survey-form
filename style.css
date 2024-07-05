@@ -66,6 +66,28 @@ header{
     padding: 5px;
     width: 80%;
 }
+.end{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    background-color: #8dbbc7;
+    width: 50%;
+    height: 50%;
+    border: solid 1px;
+    padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+h1{
+    background-color: #8dbbc7;
+    color: white;
+}
+#newdiv{
+    display: none;
+    justify-items: center;
+    align-items: end;
+}
 @media only screen and  (max-width : 855px){
     .box{
         width: 80%;
@@ -117,3 +139,18 @@ header{
         margin-left: 65%;   
     }
 }   
+@media only screen and (max-width : 548px) {
+    .end{
+        width: 70%;
+        height: 50%;
+        margin-top: 7%;
+    }   
+}
+@media only screen and (max-width : 388px) {
+    .end{
+        width: 82%;
+        height: 65%;
+        margin-top: 12%;
+    }
+
+}

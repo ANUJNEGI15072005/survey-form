@@ -52,12 +52,22 @@ function validateForm(form) {
       
     return true;
 }
+function show(){
+    var x = document.getElementById("newdiv");
+    var y = document.getElementById("myForm");
+    if(x.style.display=="none" || x.style.display==""){
+        y.style.display="none";
+        x.style.display="grid";
+    }
+}
       
 function submitForm() {
     const form = document.getElementById('myForm');
     if (!validateForm(form)) {
         return;
     }
-    form.submit();
+    setTimeout(function() {
+        show();
+    }, 0);
 }
 
