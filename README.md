@@ -1,31 +1,49 @@
-#**Student Survey Form**
-This is a simple HTML and JavaScript-based student survey form. The form collects various information from students, including their name, email, age, class, school type, school name, selected courses, and the reason for selecting those courses. After the form is filled out and submitted, it displays a thank-you message.
-##**Features:-**
-**Responsive Design:** The form is styled to be responsive and works well on various screen sizes.
-**Validation:** JavaScript functions validate the form input to ensure that all required fields are filled out correctly.
-**Dynamic Content:** After submission, the form is hidden, and a thank-you message is displayed.
-##**Form Fields:-**
-**Name:** A text input field for entering the student's name.
-**Email-ID:** A text input field for entering the student's email.
-**Age:** A text input field for entering the student's age.
-**Class:** A text input field for entering the student's class.
-**School Type:** Radio buttons for selecting the type of school (Private or Govt.).
-**School Name:** A text input field for entering the name of the school.
-**Selected Courses:** Checkboxes for selecting the courses the student is interested in (B.Tech, BCA, B.Com, BBA, BA, B.Sc).
-**Reason for the selected course:** A text input field for providing the reason for selecting the course.
-##**Form Validation:-**
-The form includes JavaScript validation to ensure the following:
-All required fields are filled out.
-The email address is in a valid format.
-The age is a valid number.
-The class is a valid number between 1 and 12.
-At least one school type is selected.
-At least one course is selected.
-##**JavaScript Functions:-**
-**validateForm(form):** Validates the form input fields.
-**show():** Displays the thank-you message and hides the form.
-**submitForm():** Handles form submission, calls validateForm for validation, and then displays the thank-you message if validation is successful.
-##**CSS Styling:-**
-The form is styled using CSS to ensure a clean and user-friendly interface. It includes media queries to adjust the layout for different screen sizes, making it mobile-friendly.
-##**Usage:-**
-To use this form, simply open the HTML file in a web browser. Fill out the form fields and click the "SUBMIT" button. If all fields are correctly filled out, the form will display a thank-you message. If any field is incorrectly filled out or missing, an alert will notify the user to correct the input.
+
+# Student Survey Form
+
+This project is a simple HTML, CSS, and JavaScript-based student survey form. It collects student details such as name, email, age, class, school type, school name, selected courses, and the reason for choosing those courses. The form validates the input and displays a thank-you message upon successful submission.
+
+
+## Features
+
+- Responsive Design : The form is designed to be responsive and adjusts its layout according to the screen size.
+- Input Validation : JavaScript is used to validate the form inputs to ensure all required fields are filled out correctly.
+- User Feedback : Displays a thank-you message upon successful form submission.
+
+
+
+## File Structure
+- `index.html` : Main HTML file containing the form structure and JavaScript for validation.
+- `style.css` : Inline CSS used for styling the form and making it responsive.
+- `script.js`: Inline JavaScript code for form validation and displaying the thank-you message.
+## Form Fields
+- Name: Text input for the student's name.
+- Email: Text input for the student's email address.
+- Age: Text input for the student's age.
+- Class: Text input for the student's class.
+- School Type: Radio buttons for selecting the type of school (Private or Govt.).
+- School Name: Text input for the name of the school.
+- Selected Courses: Checkboxes for selecting one or more courses.
+- Reason for Selected Course: Text input for the reason behind choosing the selected courses.
+## Input Validation
+- Name, Email, Age, Class, School Name, Reason: Required fields.
+- School Type: At least one option (Private or Govt.) must be selected.
+- Selected Courses: At least one course must be selected.
+- Email: Must be a valid email format.
+- Age: Must be a valid number.
+- Class: Must be a valid class between 1 and 12.
+## How to Use
+- Open files in a web browser.
+- Fill out the form with the required details.
+- Click the "Submit" button.
+- If the form is correctly filled out, a thank-you message will be displayed. If not, appropriate error messages will be shown.
+
+## Customization
+- Styles: Modify the CSS styles within the `<style>` tag to customize the appearance of the form.
+- Validation: Update the validation logic in the validateForm function within the `<script>` tag to change the input validation rules.
+- Form Fields: Add or remove form fields by editing the HTML structure within the `<form>` tag.
+
+## License
+
+This project is open-source and available for anyone to use and modify. Feel free to adapt it to your needs.
+
