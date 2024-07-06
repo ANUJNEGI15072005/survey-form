@@ -33,10 +33,9 @@ This project is a simple HTML, CSS, and JavaScript-based student survey form. It
 - Age: Must be a valid number.
 - Class: Must be a valid class between 1 and 12.
 ## How to Use
-- Open files in a web browser.
-- Fill out the form with the required details.
-- Click the "Submit" button.
-- If the form is correctly filled out, a thank-you message will be displayed. If not, appropriate error messages will be shown.
+- `Git clone https://github.com/ANUJNEGI15072005/survey-form` 
+- `cd survey-form`
+- `Turn on the live server`
 
 ## Customization
 - Styles: Modify the CSS styles within the `<style>` tag to customize the appearance of the form.
